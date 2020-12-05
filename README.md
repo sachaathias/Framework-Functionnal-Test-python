@@ -17,8 +17,9 @@ their name.
 * The virtualenv directory should not be commited, add it to your gitignore
 
 ## Yaml files configuration
-Here is an example yaml:
-    name: cat should have identical stdin and stdout
+### Here is an example yaml:
+```yaml
+name: cat should have identical stdin and stdout
     command: cat
     stdin: |
     foobar
@@ -32,6 +33,7 @@ Here is an example yaml:
     stderr: |
     machin
     returncode: 1
+```
 
 Two noteworthy things, if you're not familiar with YAML:
 * Multiple yaml items can be defined in a single file, as long as they are
