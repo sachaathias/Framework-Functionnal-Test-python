@@ -16,7 +16,7 @@ their name.
 * Install the dependencies with "pip install pytest pyyaml"
 * The virtualenv directory should not be commited, add it to your gitignore
 
-##Yaml files configuration
+## Yaml files configuration
 Here is an example yaml:
 
 name: cat should have identical stdin and stdout
