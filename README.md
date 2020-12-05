@@ -20,19 +20,19 @@ their name.
 ### Here is an example yaml:
 ```yaml
 name: cat should have identical stdin and stdout
-    command: cat
-    stdin: |
-    foobar
-    barfoo
-    stdout: |
-    foobar
-    barfoo
-    ---
-    name: failing for all three reasons
-    command: echo "foo"
-    stderr: |
-    machin
-    returncode: 1
+command: cat
+stdin: |
+foobar
+barfoo
+stdout: |
+foobar
+barfoo
+---
+name: failing for all three reasons
+command: echo "foo"
+stderr: |
+machin
+returncode: 1
 ```
 
 Two noteworthy things, if you're not familiar with YAML:
